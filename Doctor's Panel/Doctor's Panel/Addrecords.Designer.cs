@@ -30,20 +30,20 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.pid = new System.Windows.Forms.TextBox();
+            this.pname = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.present = new System.Windows.Forms.ComboBox();
+            this.history = new System.Windows.Forms.ComboBox();
+            this.past = new System.Windows.Forms.ComboBox();
+            this.allergies = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.summ = new System.Windows.Forms.RichTextBox();
+            this.medicine = new System.Windows.Forms.RichTextBox();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
@@ -78,29 +78,29 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Records";
             // 
-            // textBox3
+            // pid
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(41, 158);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(157, 31);
-            this.textBox3.TabIndex = 11;
-            this.textBox3.Text = "Patient ID";
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.pid.BackColor = System.Drawing.SystemColors.Control;
+            this.pid.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pid.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pid.Location = new System.Drawing.Point(41, 158);
+            this.pid.Name = "pid";
+            this.pid.Size = new System.Drawing.Size(157, 31);
+            this.pid.TabIndex = 11;
+            this.pid.Text = "Patient ID";
+            this.pid.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox1
+            // pname
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(41, 208);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(157, 31);
-            this.textBox1.TabIndex = 12;
-            this.textBox1.Text = "Patient Name";
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.pname.BackColor = System.Drawing.SystemColors.Control;
+            this.pname.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pname.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pname.Location = new System.Drawing.Point(41, 208);
+            this.pname.Name = "pname";
+            this.pname.Size = new System.Drawing.Size(157, 31);
+            this.pname.TabIndex = 12;
+            this.pname.Text = "Patient Name";
+            this.pname.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // panel2
             // 
@@ -131,37 +131,20 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.comboBox4);
-            this.panel3.Controls.Add(this.comboBox3);
-            this.panel3.Controls.Add(this.comboBox2);
-            this.panel3.Controls.Add(this.comboBox1);
+            this.panel3.Controls.Add(this.present);
+            this.panel3.Controls.Add(this.history);
+            this.panel3.Controls.Add(this.past);
+            this.panel3.Controls.Add(this.allergies);
             this.panel3.Location = new System.Drawing.Point(24, 370);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(318, 250);
             this.panel3.TabIndex = 17;
             // 
-            // comboBox1
+            // present
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "None",
-            "Drug Allergies",
-            "Environmental Allergies",
-            "Food Allergies",
-            "Insect Sting Allergies",
-            "Skin Allergies"});
-            this.comboBox1.Location = new System.Drawing.Point(17, 26);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(157, 33);
-            this.comboBox1.TabIndex = 19;
-            this.comboBox1.Text = "Allergies";
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.present.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.present.FormattingEnabled = true;
+            this.present.Items.AddRange(new object[] {
             "None",
             "Cardiovascular",
             "Respiratory",
@@ -172,17 +155,17 @@
             "Dermatological",
             "Renal/Urinary",
             "Reproductive"});
-            this.comboBox2.Location = new System.Drawing.Point(17, 127);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(235, 33);
-            this.comboBox2.TabIndex = 20;
-            this.comboBox2.Text = "Past Illness & Condition";
+            this.present.Location = new System.Drawing.Point(17, 187);
+            this.present.Name = "present";
+            this.present.Size = new System.Drawing.Size(235, 33);
+            this.present.TabIndex = 21;
+            this.present.Text = "Present Illness & Condition";
             // 
-            // comboBox3
+            // history
             // 
-            this.comboBox3.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.history.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.history.FormattingEnabled = true;
+            this.history.Items.AddRange(new object[] {
             "None",
             "Cardiovascular",
             "Neurosurgery",
@@ -193,17 +176,17 @@
             "Opthalmic",
             "Plastic Surgery",
             "Thoracic"});
-            this.comboBox3.Location = new System.Drawing.Point(17, 78);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(196, 33);
-            this.comboBox3.TabIndex = 19;
-            this.comboBox3.Text = "Surgical History";
+            this.history.Location = new System.Drawing.Point(17, 78);
+            this.history.Name = "history";
+            this.history.Size = new System.Drawing.Size(196, 33);
+            this.history.TabIndex = 19;
+            this.history.Text = "Surgical History";
             // 
-            // comboBox4
+            // past
             // 
-            this.comboBox4.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.past.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.past.FormattingEnabled = true;
+            this.past.Items.AddRange(new object[] {
             "None",
             "Cardiovascular",
             "Respiratory",
@@ -214,11 +197,28 @@
             "Dermatological",
             "Renal/Urinary",
             "Reproductive"});
-            this.comboBox4.Location = new System.Drawing.Point(17, 187);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(235, 33);
-            this.comboBox4.TabIndex = 21;
-            this.comboBox4.Text = "Present Illness & Condition";
+            this.past.Location = new System.Drawing.Point(17, 127);
+            this.past.Name = "past";
+            this.past.Size = new System.Drawing.Size(235, 33);
+            this.past.TabIndex = 20;
+            this.past.Text = "Past Illness & Condition";
+            // 
+            // allergies
+            // 
+            this.allergies.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.allergies.FormattingEnabled = true;
+            this.allergies.Items.AddRange(new object[] {
+            "None",
+            "Drug Allergies",
+            "Environmental Allergies",
+            "Food Allergies",
+            "Insect Sting Allergies",
+            "Skin Allergies"});
+            this.allergies.Location = new System.Drawing.Point(17, 26);
+            this.allergies.Name = "allergies";
+            this.allergies.Size = new System.Drawing.Size(157, 33);
+            this.allergies.TabIndex = 19;
+            this.allergies.Text = "Allergies";
             // 
             // label4
             // 
@@ -232,32 +232,32 @@
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.richTextBox2);
-            this.panel4.Controls.Add(this.richTextBox1);
+            this.panel4.Controls.Add(this.summ);
+            this.panel4.Controls.Add(this.medicine);
             this.panel4.Location = new System.Drawing.Point(481, 145);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(622, 474);
             this.panel4.TabIndex = 21;
             // 
-            // richTextBox1
+            // summ
             // 
-            this.richTextBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.richTextBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-            this.richTextBox1.Location = new System.Drawing.Point(17, 26);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(408, 154);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "Medication:";
+            this.summ.BackColor = System.Drawing.SystemColors.Control;
+            this.summ.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.summ.Location = new System.Drawing.Point(17, 232);
+            this.summ.Name = "summ";
+            this.summ.Size = new System.Drawing.Size(583, 203);
+            this.summ.TabIndex = 1;
+            this.summ.Text = "Summary:";
             // 
-            // richTextBox2
+            // medicine
             // 
-            this.richTextBox2.BackColor = System.Drawing.SystemColors.Control;
-            this.richTextBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-            this.richTextBox2.Location = new System.Drawing.Point(17, 232);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(583, 203);
-            this.richTextBox2.TabIndex = 1;
-            this.richTextBox2.Text = "Summary:";
+            this.medicine.BackColor = System.Drawing.SystemColors.Control;
+            this.medicine.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.medicine.Location = new System.Drawing.Point(17, 26);
+            this.medicine.Name = "medicine";
+            this.medicine.Size = new System.Drawing.Size(408, 154);
+            this.medicine.TabIndex = 0;
+            this.medicine.Text = "Medication:";
             // 
             // button5
             // 
@@ -269,6 +269,7 @@
             this.button5.TabIndex = 34;
             this.button5.Text = "ADD";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -280,6 +281,7 @@
             this.button6.TabIndex = 35;
             this.button6.Text = "UPDATE";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -291,6 +293,7 @@
             this.button7.TabIndex = 36;
             this.button7.Text = "DELETE";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -318,8 +321,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.pname);
+            this.Controls.Add(this.pid);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -338,20 +341,20 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox pid;
+        private System.Windows.Forms.TextBox pname;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox allergies;
+        private System.Windows.Forms.ComboBox past;
+        private System.Windows.Forms.ComboBox history;
+        private System.Windows.Forms.ComboBox present;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.RichTextBox richTextBox2;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox summ;
+        private System.Windows.Forms.RichTextBox medicine;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;

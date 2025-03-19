@@ -1827,23 +1827,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ogutu\\.nuget\\packages\\": {},
+    "C:\\Users\\G\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ogutu\\OneDrive\\Documents\\GitHub\\patient-management-system\\Patients registration form\\patient system\\HMSLogin\\HMSLogin\\HMSLogin.csproj",
+      "projectUniqueName": "C:\\Users\\G\\Downloads\\School\\Y3S2\\CMT 307; .NET Programming\\Github\\HMSLogin\\HMSLogin\\HMSLogin.csproj",
       "projectName": "HMSLogin",
-      "projectPath": "C:\\Users\\Ogutu\\OneDrive\\Documents\\GitHub\\patient-management-system\\Patients registration form\\patient system\\HMSLogin\\HMSLogin\\HMSLogin.csproj",
-      "packagesPath": "C:\\Users\\Ogutu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ogutu\\OneDrive\\Documents\\GitHub\\patient-management-system\\Patients registration form\\patient system\\HMSLogin\\HMSLogin\\obj\\",
+      "projectPath": "C:\\Users\\G\\Downloads\\School\\Y3S2\\CMT 307; .NET Programming\\Github\\HMSLogin\\HMSLogin\\HMSLogin.csproj",
+      "packagesPath": "C:\\Users\\G\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\G\\Downloads\\School\\Y3S2\\CMT 307; .NET Programming\\Github\\HMSLogin\\HMSLogin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Ogutu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\G\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1871,7 +1871,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -1905,7 +1905,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

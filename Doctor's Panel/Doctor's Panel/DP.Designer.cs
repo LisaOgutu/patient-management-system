@@ -36,7 +36,6 @@
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -97,7 +96,6 @@
             this.Profile.Controls.Add(this.textBox8);
             this.Profile.Controls.Add(this.pictureBox1);
             this.Profile.Controls.Add(this.textBox7);
-            this.Profile.Controls.Add(this.button1);
             this.Profile.Location = new System.Drawing.Point(12, 148);
             this.Profile.Name = "Profile";
             this.Profile.Size = new System.Drawing.Size(568, 169);
@@ -148,18 +146,6 @@
             this.textBox7.TabIndex = 6;
             this.textBox7.Text = "Dr\'s Name:";
             this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.SystemColors.Control;
-            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold);
-            this.button1.Location = new System.Drawing.Point(430, 122);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(132, 37);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Edit Profile";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel2
             // 
@@ -362,7 +348,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button button3;

@@ -30,10 +30,10 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.RecordsGV = new System.Windows.Forms.DataGridView();
             this.button4 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RecordsGV)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -61,15 +61,16 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Records";
             // 
-            // dataGridView1
+            // RecordsGV
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 116);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(1126, 532);
-            this.dataGridView1.TabIndex = 6;
+            this.RecordsGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.RecordsGV.Location = new System.Drawing.Point(12, 116);
+            this.RecordsGV.Name = "RecordsGV";
+            this.RecordsGV.RowHeadersWidth = 62;
+            this.RecordsGV.RowTemplate.Height = 28;
+            this.RecordsGV.Size = new System.Drawing.Size(1126, 532);
+            this.RecordsGV.TabIndex = 6;
+            this.RecordsGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.RecordsGV_CellContentClick);
             // 
             // button4
             // 
@@ -89,14 +90,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1150, 761);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.RecordsGV);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "vrecords";
             this.Text = "vrecords";
+            this.Load += new System.EventHandler(this.vrecords_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RecordsGV)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -105,7 +107,7 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView RecordsGV;
         private System.Windows.Forms.Button button4;
     }
 }

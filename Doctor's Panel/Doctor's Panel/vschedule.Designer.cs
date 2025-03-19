@@ -30,16 +30,16 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.pa_id = new System.Windows.Forms.TextBox();
+            this.dates = new System.Windows.Forms.DateTimePicker();
+            this.clinic = new System.Windows.Forms.ComboBox();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.ScheduleGV = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ScheduleGV)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -67,43 +67,43 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Schedule";
             // 
-            // textBox3
+            // pa_id
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(55, 179);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(139, 31);
-            this.textBox3.TabIndex = 11;
-            this.textBox3.Text = "Patient ID";
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.pa_id.BackColor = System.Drawing.SystemColors.Control;
+            this.pa_id.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pa_id.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pa_id.Location = new System.Drawing.Point(55, 179);
+            this.pa_id.Name = "pa_id";
+            this.pa_id.Size = new System.Drawing.Size(139, 31);
+            this.pa_id.TabIndex = 11;
+            this.pa_id.Text = "Patient ID";
+            this.pa_id.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // dateTimePicker1
+            // dates
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(55, 317);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(256, 31);
-            this.dateTimePicker1.TabIndex = 14;
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            this.dates.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dates.Location = new System.Drawing.Point(55, 317);
+            this.dates.Name = "dates";
+            this.dates.Size = new System.Drawing.Size(256, 31);
+            this.dates.TabIndex = 14;
+            this.dates.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
-            // comboBox1
+            // clinic
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.clinic.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clinic.FormattingEnabled = true;
+            this.clinic.Items.AddRange(new object[] {
             "Cardiology",
             "Dermatology",
             "Orthopedic",
             "Pediatric",
             "Gynecology & Obstetrics"});
-            this.comboBox1.Location = new System.Drawing.Point(55, 249);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(168, 33);
-            this.comboBox1.TabIndex = 15;
-            this.comboBox1.Text = "Type of Clinic";
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.clinic.Location = new System.Drawing.Point(55, 249);
+            this.clinic.Name = "clinic";
+            this.clinic.Size = new System.Drawing.Size(168, 33);
+            this.clinic.TabIndex = 15;
+            this.clinic.Text = "Type of Clinic";
+            this.clinic.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // button4
             // 
@@ -153,37 +153,37 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // dataGridView1
+            // ScheduleGV
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(497, 150);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(616, 499);
-            this.dataGridView1.TabIndex = 29;
+            this.ScheduleGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.ScheduleGV.Location = new System.Drawing.Point(497, 150);
+            this.ScheduleGV.Name = "ScheduleGV";
+            this.ScheduleGV.RowHeadersWidth = 62;
+            this.ScheduleGV.RowTemplate.Height = 28;
+            this.ScheduleGV.Size = new System.Drawing.Size(616, 499);
+            this.ScheduleGV.TabIndex = 29;
             // 
             // vschedule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1150, 761);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.ScheduleGV);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.clinic);
+            this.Controls.Add(this.dates);
+            this.Controls.Add(this.pa_id);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "vschedule";
             this.Text = "vschedule";
+            this.Load += new System.EventHandler(this.vschedule_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ScheduleGV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -193,13 +193,13 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox pa_id;
+        private System.Windows.Forms.DateTimePicker dates;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView ScheduleGV;
+        private System.Windows.Forms.ComboBox clinic;
     }
 }

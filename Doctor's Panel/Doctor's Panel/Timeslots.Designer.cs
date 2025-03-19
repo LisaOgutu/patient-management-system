@@ -30,17 +30,16 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.date = new System.Windows.Forms.DateTimePicker();
+            this.TimeslotsGV = new System.Windows.Forms.DataGridView();
+            this.time = new System.Windows.Forms.ComboBox();
             this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.available = new System.Windows.Forms.RadioButton();
+            this.unavailable = new System.Windows.Forms.RadioButton();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TimeslotsGV)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -69,36 +68,37 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Time Slots";
             // 
-            // dateTimePicker1
+            // date
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(32, 171);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(289, 26);
-            this.dateTimePicker1.TabIndex = 4;
+            this.date.CustomFormat = "MM/dd/yyyy";
+            this.date.Location = new System.Drawing.Point(32, 171);
+            this.date.Name = "date";
+            this.date.Size = new System.Drawing.Size(277, 26);
+            this.date.TabIndex = 4;
             // 
-            // dataGridView1
+            // TimeslotsGV
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(536, 162);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(563, 465);
-            this.dataGridView1.TabIndex = 5;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.TimeslotsGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.TimeslotsGV.Location = new System.Drawing.Point(536, 162);
+            this.TimeslotsGV.Name = "TimeslotsGV";
+            this.TimeslotsGV.RowHeadersWidth = 62;
+            this.TimeslotsGV.RowTemplate.Height = 28;
+            this.TimeslotsGV.Size = new System.Drawing.Size(563, 465);
+            this.TimeslotsGV.TabIndex = 5;
+            this.TimeslotsGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // comboBox1
+            // time
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.time.FormattingEnabled = true;
+            this.time.Items.AddRange(new object[] {
             "8:00 - 10:00",
             "10:00 - 12:00",
             "2:00 - 4:00"});
-            this.comboBox1.Location = new System.Drawing.Point(32, 234);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(202, 28);
-            this.comboBox1.TabIndex = 6;
-            this.comboBox1.Text = "Time";
+            this.time.Location = new System.Drawing.Point(32, 234);
+            this.time.Name = "time";
+            this.time.Size = new System.Drawing.Size(202, 28);
+            this.time.TabIndex = 6;
+            this.time.Text = "Time";
             // 
             // button4
             // 
@@ -111,18 +111,6 @@
             this.button4.Text = "DONE";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button3.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-            this.button3.Location = new System.Drawing.Point(346, 702);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(113, 37);
-            this.button3.TabIndex = 32;
-            this.button3.Text = "DELETE";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -148,49 +136,51 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // radioButton1
+            // available
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(32, 303);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(97, 24);
-            this.radioButton1.TabIndex = 34;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Available";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.available.AutoSize = true;
+            this.available.Location = new System.Drawing.Point(32, 303);
+            this.available.Name = "available";
+            this.available.Size = new System.Drawing.Size(97, 24);
+            this.available.TabIndex = 34;
+            this.available.TabStop = true;
+            this.available.Text = "Available";
+            this.available.UseVisualStyleBackColor = true;
+            this.available.CheckedChanged += new System.EventHandler(this.available_CheckedChanged);
             // 
-            // radioButton2
+            // unavailable
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(214, 303);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(126, 24);
-            this.radioButton2.TabIndex = 35;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Not Available";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.unavailable.AutoSize = true;
+            this.unavailable.Location = new System.Drawing.Point(214, 303);
+            this.unavailable.Name = "unavailable";
+            this.unavailable.Size = new System.Drawing.Size(126, 24);
+            this.unavailable.TabIndex = 35;
+            this.unavailable.TabStop = true;
+            this.unavailable.Text = "Not Available";
+            this.unavailable.UseVisualStyleBackColor = true;
+            this.unavailable.CheckedChanged += new System.EventHandler(this.unavailable_CheckedChanged);
             // 
             // Timeslots
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1150, 761);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.unavailable);
+            this.Controls.Add(this.available);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.time);
+            this.Controls.Add(this.TimeslotsGV);
+            this.Controls.Add(this.date);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Timeslots";
             this.Text = "Timeslots";
+            this.Load += new System.EventHandler(this.Timeslots_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TimeslotsGV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -200,14 +190,13 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.DateTimePicker date;
+        private System.Windows.Forms.DataGridView TimeslotsGV;
+        private System.Windows.Forms.ComboBox time;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton available;
+        private System.Windows.Forms.RadioButton unavailable;
     }
 }
