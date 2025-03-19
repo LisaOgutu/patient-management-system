@@ -1,6 +1,6 @@
 ﻿namespace HMSLogin
 {
-    partial class contactus
+    partial class Contactus
     {
         /// <summary>
         /// Required designer variable.
@@ -30,19 +30,20 @@
         {
             panel1 = new Panel();
             label1 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
+            Fname = new TextBox();
+            Patemail = new TextBox();
+            Phoneno = new TextBox();
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
-            textBox4 = new TextBox();
+            Emergency = new TextBox();
             panel2 = new Panel();
-            label6 = new Label();
-            label7 = new Label();
-            label8 = new Label();
             label9 = new Label();
+            label8 = new Label();
+            label7 = new Label();
+            label6 = new Label();
+            button1 = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             SuspendLayout();
@@ -67,29 +68,29 @@
             label1.TabIndex = 0;
             label1.Text = " Contact us ";
             // 
-            // textBox1
+            // Fname
             // 
-            textBox1.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(185, 161);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(240, 31);
-            textBox1.TabIndex = 1;
+            Fname.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Fname.Location = new Point(185, 161);
+            Fname.Name = "Fname";
+            Fname.Size = new Size(240, 31);
+            Fname.TabIndex = 1;
             // 
-            // textBox2
+            // Patemail
             // 
-            textBox2.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.Location = new Point(185, 219);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(240, 31);
-            textBox2.TabIndex = 2;
+            Patemail.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Patemail.Location = new Point(185, 219);
+            Patemail.Name = "Patemail";
+            Patemail.Size = new Size(240, 31);
+            Patemail.TabIndex = 2;
             // 
-            // textBox3
+            // Phoneno
             // 
-            textBox3.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox3.Location = new Point(185, 274);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(240, 31);
-            textBox3.TabIndex = 3;
+            Phoneno.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Phoneno.Location = new Point(185, 274);
+            Phoneno.Name = "Phoneno";
+            Phoneno.Size = new Size(240, 31);
+            Phoneno.TabIndex = 3;
             // 
             // label2
             // 
@@ -132,13 +133,13 @@
             label5.TabIndex = 7;
             label5.Text = "Type in emergency";
             // 
-            // textBox4
+            // Emergency
             // 
-            textBox4.Font = new Font("Segoe UI", 22.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox4.Location = new Point(186, 334);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(240, 57);
-            textBox4.TabIndex = 8;
+            Emergency.Font = new Font("Segoe UI", 22.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Emergency.Location = new Point(186, 334);
+            Emergency.Name = "Emergency";
+            Emergency.Size = new Size(240, 57);
+            Emergency.TabIndex = 8;
             // 
             // panel2
             // 
@@ -152,15 +153,25 @@
             panel2.Size = new Size(586, 72);
             panel2.TabIndex = 9;
             // 
-            // label6
+            // label9
             // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.Location = new Point(0, 0);
-            label6.Name = "label6";
-            label6.Size = new Size(80, 20);
-            label6.TabIndex = 0;
-            label6.Text = "Get us on:";
+            label9.AutoSize = true;
+            label9.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label9.Location = new Point(294, 40);
+            label9.Name = "label9";
+            label9.Size = new Size(277, 20);
+            label9.TabIndex = 3;
+            label9.Text = "Address -  300-011,Westlands,Nairobi";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label8.Location = new Point(57, 52);
+            label8.Name = "label8";
+            label8.Size = new Size(210, 20);
+            label8.TabIndex = 2;
+            label8.Text = "Telephone -+254709672345";
             // 
             // label7
             // 
@@ -173,44 +184,48 @@
             label7.Text = "Email - patientsystem@gmail.com";
             label7.Click += label7_Click;
             // 
-            // label8
+            // label6
             // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label8.Location = new Point(57, 52);
-            label8.Name = "label8";
-            label8.Size = new Size(210, 20);
-            label8.TabIndex = 2;
-            label8.Text = "Telephone -+254709672345";
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label6.Location = new Point(0, 0);
+            label6.Name = "label6";
+            label6.Size = new Size(80, 20);
+            label6.TabIndex = 0;
+            label6.Text = "Get us on:";
             // 
-            // label9
+            // button1
             // 
-            label9.AutoSize = true;
-            label9.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label9.Location = new Point(294, 40);
-            label9.Name = "label9";
-            label9.Size = new Size(277, 20);
-            label9.TabIndex = 3;
-            label9.Text = "Address -  300-011,Westlands,Nairobi";
+            button1.BackColor = SystemColors.ActiveCaption;
+            button1.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            button1.ForeColor = SystemColors.ActiveCaptionText;
+            button1.Location = new Point(224, 432);
+            button1.Name = "button1";
+            button1.Size = new Size(147, 48);
+            button1.TabIndex = 10;
+            button1.Text = "SUBMIT";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
-            // contactus
+            // Contactus
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLight;
             ClientSize = new Size(586, 600);
+            Controls.Add(button1);
             Controls.Add(panel2);
-            Controls.Add(textBox4);
+            Controls.Add(Emergency);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(Phoneno);
+            Controls.Add(Patemail);
+            Controls.Add(Fname);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "contactus";
+            Name = "Contactus";
             Text = "contactus";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
@@ -224,18 +239,19 @@
 
         private Panel panel1;
         private Label label1;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
+        private TextBox Fname;
+        private TextBox Patemail;
+        private TextBox Phoneno;
         private Label label2;
         private Label label3;
         private Label label4;
         private Label label5;
-        private TextBox textBox4;
+        private TextBox Emergency;
         private Panel panel2;
         private Label label7;
         private Label label6;
         private Label label8;
         private Label label9;
+        private Button button1;
     }
 }

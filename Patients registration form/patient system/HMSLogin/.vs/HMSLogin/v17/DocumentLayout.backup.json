@@ -1,37 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Ogutu\\OneDrive\\Desktop\\3.2\\HMSLogin\\",
+  "WorkspaceRootPath": "C:\\Users\\Ogutu\\OneDrive\\Documents\\GitHub\\patient-management-system\\Patients registration form\\patient system\\HMSLogin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA68E420-DBAA-4444-9179-2593AE5E530F}|HMSLogin\\HMSLogin.csproj|c:\\users\\ogutu\\onedrive\\desktop\\3.2\\hmslogin\\hmslogin\\contactus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CA68E420-DBAA-4444-9179-2593AE5E530F}|HMSLogin\\HMSLogin.csproj|solutionrelative:hmslogin\\contactus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA68E420-DBAA-4444-9179-2593AE5E530F}|HMSLogin\\HMSLogin.csproj|c:\\users\\ogutu\\onedrive\\desktop\\3.2\\hmslogin\\hmslogin\\contactus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA68E420-DBAA-4444-9179-2593AE5E530F}|HMSLogin\\HMSLogin.csproj|c:\\users\\ogutu\\onedrive\\documents\\github\\patient-management-system\\patients registration form\\patient system\\hmslogin\\hmslogin\\contactus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA68E420-DBAA-4444-9179-2593AE5E530F}|HMSLogin\\HMSLogin.csproj|solutionrelative:hmslogin\\contactus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA68E420-DBAA-4444-9179-2593AE5E530F}|HMSLogin\\HMSLogin.csproj|c:\\users\\ogutu\\onedrive\\desktop\\3.2\\hmslogin\\hmslogin\\doctors.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA68E420-DBAA-4444-9179-2593AE5E530F}|HMSLogin\\HMSLogin.csproj|solutionrelative:hmslogin\\doctors.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA68E420-DBAA-4444-9179-2593AE5E530F}|HMSLogin\\HMSLogin.csproj|c:\\users\\ogutu\\onedrive\\documents\\github\\patient-management-system\\patients registration form\\patient system\\hmslogin\\hmslogin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA68E420-DBAA-4444-9179-2593AE5E530F}|HMSLogin\\HMSLogin.csproj|solutionrelative:hmslogin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA68E420-DBAA-4444-9179-2593AE5E530F}|HMSLogin\\HMSLogin.csproj|c:\\users\\ogutu\\onedrive\\desktop\\3.2\\hmslogin\\hmslogin\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA68E420-DBAA-4444-9179-2593AE5E530F}|HMSLogin\\HMSLogin.csproj|solutionrelative:hmslogin\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA68E420-DBAA-4444-9179-2593AE5E530F}|HMSLogin\\HMSLogin.csproj|C:\\Users\\Ogutu\\OneDrive\\Documents\\GitHub\\patient-management-system\\Patients registration form\\patient system\\HMSLogin\\hmslogin\\contactus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CA68E420-DBAA-4444-9179-2593AE5E530F}|HMSLogin\\HMSLogin.csproj|solutionrelative:hmslogin\\contactus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA68E420-DBAA-4444-9179-2593AE5E530F}|HMSLogin\\HMSLogin.csproj|c:\\users\\ogutu\\onedrive\\desktop\\3.2\\hmslogin\\hmslogin\\doctors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA68E420-DBAA-4444-9179-2593AE5E530F}|HMSLogin\\HMSLogin.csproj|solutionrelative:hmslogin\\doctors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA68E420-DBAA-4444-9179-2593AE5E530F}|HMSLogin\\HMSLogin.csproj|c:\\users\\ogutu\\onedrive\\desktop\\3.2\\hmslogin\\hmslogin\\doctors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CA68E420-DBAA-4444-9179-2593AE5E530F}|HMSLogin\\HMSLogin.csproj|C:\\Users\\Ogutu\\OneDrive\\Documents\\GitHub\\patient-management-system\\Patients registration form\\patient system\\HMSLogin\\hmslogin\\doctors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CA68E420-DBAA-4444-9179-2593AE5E530F}|HMSLogin\\HMSLogin.csproj|solutionrelative:hmslogin\\doctors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA68E420-DBAA-4444-9179-2593AE5E530F}|HMSLogin\\HMSLogin.csproj|C:\\Users\\Ogutu\\OneDrive\\Desktop\\3.2\\HMSLogin\\hmslogin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CA68E420-DBAA-4444-9179-2593AE5E530F}|HMSLogin\\HMSLogin.csproj|c:\\users\\ogutu\\onedrive\\documents\\github\\patient-management-system\\patients registration form\\patient system\\hmslogin\\hmslogin\\doctors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA68E420-DBAA-4444-9179-2593AE5E530F}|HMSLogin\\HMSLogin.csproj|solutionrelative:hmslogin\\doctors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA68E420-DBAA-4444-9179-2593AE5E530F}|HMSLogin\\HMSLogin.csproj|C:\\Users\\Ogutu\\OneDrive\\Documents\\GitHub\\patient-management-system\\Patients registration form\\patient system\\HMSLogin\\hmslogin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CA68E420-DBAA-4444-9179-2593AE5E530F}|HMSLogin\\HMSLogin.csproj|solutionrelative:hmslogin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA68E420-DBAA-4444-9179-2593AE5E530F}|HMSLogin\\HMSLogin.csproj|c:\\users\\ogutu\\onedrive\\desktop\\3.2\\hmslogin\\hmslogin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA68E420-DBAA-4444-9179-2593AE5E530F}|HMSLogin\\HMSLogin.csproj|c:\\users\\ogutu\\onedrive\\documents\\github\\patient-management-system\\patients registration form\\patient system\\hmslogin\\hmslogin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA68E420-DBAA-4444-9179-2593AE5E530F}|HMSLogin\\HMSLogin.csproj|solutionrelative:hmslogin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -45,107 +41,92 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "contactus.cs",
-              "DocumentMoniker": "C:\\Users\\Ogutu\\OneDrive\\Desktop\\3.2\\HMSLogin\\HMSLogin\\contactus.cs",
-              "RelativeDocumentMoniker": "HMSLogin\\contactus.cs",
-              "ToolTip": "C:\\Users\\Ogutu\\OneDrive\\Desktop\\3.2\\HMSLogin\\HMSLogin\\contactus.cs",
-              "RelativeToolTip": "HMSLogin\\contactus.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAYwBUAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ogutu\\OneDrive\\Documents\\GitHub\\patient-management-system\\Patients registration form\\patient system\\HMSLogin\\HMSLogin\\Program.cs",
+              "RelativeDocumentMoniker": "HMSLogin\\Program.cs",
+              "ToolTip": "C:\\Users\\Ogutu\\OneDrive\\Documents\\GitHub\\patient-management-system\\Patients registration form\\patient system\\HMSLogin\\HMSLogin\\Program.cs",
+              "RelativeToolTip": "HMSLogin\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T08:39:06.581Z",
+              "WhenOpened": "2025-03-10T12:32:08.592Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "contactus.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Ogutu\\OneDrive\\Desktop\\3.2\\HMSLogin\\HMSLogin\\contactus.cs",
-              "RelativeDocumentMoniker": "HMSLogin\\contactus.cs",
-              "ToolTip": "C:\\Users\\Ogutu\\OneDrive\\Desktop\\3.2\\HMSLogin\\HMSLogin\\contactus.cs [Design]",
-              "RelativeToolTip": "HMSLogin\\contactus.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "Contactus.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ogutu\\OneDrive\\Documents\\GitHub\\patient-management-system\\Patients registration form\\patient system\\HMSLogin\\HMSLogin\\Contactus.cs",
+              "RelativeDocumentMoniker": "HMSLogin\\Contactus.cs",
+              "ToolTip": "C:\\Users\\Ogutu\\OneDrive\\Documents\\GitHub\\patient-management-system\\Patients registration form\\patient system\\HMSLogin\\HMSLogin\\Contactus.cs [Design]*",
+              "RelativeToolTip": "HMSLogin\\Contactus.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-05T08:36:34.658Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "doctors.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Ogutu\\OneDrive\\Desktop\\3.2\\HMSLogin\\HMSLogin\\doctors.Designer.cs",
-              "RelativeDocumentMoniker": "HMSLogin\\doctors.Designer.cs",
-              "ToolTip": "C:\\Users\\Ogutu\\OneDrive\\Desktop\\3.2\\HMSLogin\\HMSLogin\\doctors.Designer.cs",
-              "RelativeToolTip": "HMSLogin\\doctors.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Contactus.cs",
+              "DocumentMoniker": "C:\\Users\\Ogutu\\OneDrive\\Documents\\GitHub\\patient-management-system\\Patients registration form\\patient system\\HMSLogin\\HMSLogin\\Contactus.cs",
+              "RelativeDocumentMoniker": "HMSLogin\\Contactus.cs",
+              "ToolTip": "C:\\Users\\Ogutu\\OneDrive\\Documents\\GitHub\\patient-management-system\\Patients registration form\\patient system\\HMSLogin\\HMSLogin\\Contactus.cs*",
+              "RelativeToolTip": "HMSLogin\\Contactus.cs*",
+              "ViewState": "AgIAAB0AAAAAAAC3WgEgwC0AAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T11:55:36.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "doctors.cs",
-              "DocumentMoniker": "C:\\Users\\Ogutu\\OneDrive\\Desktop\\3.2\\HMSLogin\\HMSLogin\\doctors.cs",
-              "RelativeDocumentMoniker": "HMSLogin\\doctors.cs",
-              "ToolTip": "C:\\Users\\Ogutu\\OneDrive\\Desktop\\3.2\\HMSLogin\\HMSLogin\\doctors.cs",
-              "RelativeToolTip": "HMSLogin\\doctors.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA1wB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T11:51:32.707Z",
+              "WhenOpened": "2025-03-05T08:39:06.581Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Ogutu\\OneDrive\\Desktop\\3.2\\HMSLogin\\HMSLogin\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "HMSLogin\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\Ogutu\\OneDrive\\Desktop\\3.2\\HMSLogin\\HMSLogin\\Form1.Designer.cs",
-              "RelativeToolTip": "HMSLogin\\Form1.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T10:25:50.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "doctors.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Ogutu\\OneDrive\\Desktop\\3.2\\HMSLogin\\HMSLogin\\doctors.cs",
-              "RelativeDocumentMoniker": "HMSLogin\\doctors.cs",
-              "ToolTip": "C:\\Users\\Ogutu\\OneDrive\\Desktop\\3.2\\HMSLogin\\HMSLogin\\doctors.cs [Design]",
-              "RelativeToolTip": "HMSLogin\\doctors.cs [Design]",
+              "Title": "Doctors.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ogutu\\OneDrive\\Documents\\GitHub\\patient-management-system\\Patients registration form\\patient system\\HMSLogin\\HMSLogin\\Doctors.cs",
+              "RelativeDocumentMoniker": "HMSLogin\\Doctors.cs",
+              "ToolTip": "C:\\Users\\Ogutu\\OneDrive\\Documents\\GitHub\\patient-management-system\\Patients registration form\\patient system\\HMSLogin\\HMSLogin\\Doctors.cs [Design]",
+              "RelativeToolTip": "HMSLogin\\Doctors.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T11:15:44.425Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Ogutu\\OneDrive\\Desktop\\3.2\\HMSLogin\\HMSLogin\\Form1.cs",
-              "RelativeDocumentMoniker": "HMSLogin\\Form1.cs",
-              "ToolTip": "C:\\Users\\Ogutu\\OneDrive\\Desktop\\3.2\\HMSLogin\\HMSLogin\\Form1.cs [Design]",
-              "RelativeToolTip": "HMSLogin\\Form1.cs [Design]",
+              "DocumentIndex": 4,
+              "Title": "Doctors.cs",
+              "DocumentMoniker": "C:\\Users\\Ogutu\\OneDrive\\Documents\\GitHub\\patient-management-system\\Patients registration form\\patient system\\HMSLogin\\HMSLogin\\Doctors.cs",
+              "RelativeDocumentMoniker": "HMSLogin\\Doctors.cs",
+              "ToolTip": "C:\\Users\\Ogutu\\OneDrive\\Documents\\GitHub\\patient-management-system\\Patients registration form\\patient system\\HMSLogin\\HMSLogin\\Doctors.cs",
+              "RelativeToolTip": "HMSLogin\\Doctors.cs",
+              "ViewState": "AgIAAB4AAAAAAADGZEAawC4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T10:45:34.698Z"
+              "WhenOpened": "2025-02-24T11:51:32.707Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Ogutu\\OneDrive\\Desktop\\3.2\\HMSLogin\\HMSLogin\\Form1.cs",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ogutu\\OneDrive\\Documents\\GitHub\\patient-management-system\\Patients registration form\\patient system\\HMSLogin\\HMSLogin\\Form1.cs",
               "RelativeDocumentMoniker": "HMSLogin\\Form1.cs",
-              "ToolTip": "C:\\Users\\Ogutu\\OneDrive\\Desktop\\3.2\\HMSLogin\\HMSLogin\\Form1.cs",
-              "RelativeToolTip": "HMSLogin\\Form1.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAqwCkAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Ogutu\\OneDrive\\Documents\\GitHub\\patient-management-system\\Patients registration form\\patient system\\HMSLogin\\HMSLogin\\Form1.cs [Design]",
+              "RelativeToolTip": "HMSLogin\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T07:44:58.586Z"
+              "WhenOpened": "2025-02-24T10:45:34.698Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Ogutu\\OneDrive\\Documents\\GitHub\\patient-management-system\\Patients registration form\\patient system\\HMSLogin\\HMSLogin\\Form1.cs",
+              "RelativeDocumentMoniker": "HMSLogin\\Form1.cs",
+              "ToolTip": "C:\\Users\\Ogutu\\OneDrive\\Documents\\GitHub\\patient-management-system\\Patients registration form\\patient system\\HMSLogin\\HMSLogin\\Form1.cs",
+              "RelativeToolTip": "HMSLogin\\Form1.cs",
+              "ViewState": "AgIAABsAAAAAAICIANMmwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T07:44:58.586Z",
+              "EditorCaption": ""
             }
           ]
         }

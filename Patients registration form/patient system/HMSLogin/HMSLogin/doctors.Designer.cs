@@ -1,6 +1,6 @@
 ﻿namespace HMSLogin
 {
-    partial class doctors
+    partial class Doctors
     {
         /// <summary>
         /// Required designer variable.
@@ -31,9 +31,10 @@
             panel1 = new Panel();
             label1 = new Label();
             button1 = new Button();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            docname = new TextBox();
+            docpasswcd = new TextBox();
             label2 = new Label();
+            docid = new TextBox();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -72,26 +73,27 @@
             button1.TabIndex = 1;
             button1.Text = "Login";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
-            // textBox1
+            // docname
             // 
-            textBox1.BackColor = SystemColors.Window;
-            textBox1.ForeColor = SystemColors.ControlDark;
-            textBox1.Location = new Point(129, 178);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(181, 27);
-            textBox1.TabIndex = 2;
-            textBox1.Text = "Doc's name";
+            docname.BackColor = SystemColors.Window;
+            docname.ForeColor = SystemColors.ControlDark;
+            docname.Location = new Point(131, 219);
+            docname.Name = "docname";
+            docname.Size = new Size(181, 27);
+            docname.TabIndex = 2;
+            docname.Text = "Doc's name";
             // 
-            // textBox2
+            // docpasswcd
             // 
-            textBox2.BackColor = SystemColors.Window;
-            textBox2.ForeColor = SystemColors.ControlDark;
-            textBox2.Location = new Point(129, 232);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(181, 27);
-            textBox2.TabIndex = 3;
-            textBox2.Text = "enter password";
+            docpasswcd.BackColor = SystemColors.Window;
+            docpasswcd.ForeColor = SystemColors.ControlDark;
+            docpasswcd.Location = new Point(131, 268);
+            docpasswcd.Name = "docpasswcd";
+            docpasswcd.Size = new Size(181, 27);
+            docpasswcd.TabIndex = 3;
+            docpasswcd.Text = "enter password";
             // 
             // label2
             // 
@@ -105,19 +107,30 @@
             label2.Text = "dont have an account?";
             label2.Click += label2_Click;
             // 
-            // doctors
+            // docid
+            // 
+            docid.BackColor = SystemColors.Window;
+            docid.ForeColor = SystemColors.ControlDark;
+            docid.Location = new Point(131, 169);
+            docid.Name = "docid";
+            docid.Size = new Size(181, 27);
+            docid.TabIndex = 6;
+            docid.Text = "Doc's ID";
+            // 
+            // Doctors
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLight;
             ClientSize = new Size(439, 515);
+            Controls.Add(docid);
             Controls.Add(label2);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(docpasswcd);
+            Controls.Add(docname);
             Controls.Add(button1);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "doctors";
+            Name = "Doctors";
             Text = "enter password";
             Load += doctors_Load;
             panel1.ResumeLayout(false);
@@ -131,8 +144,9 @@
         private Panel panel1;
         private Label label1;
         private Button button1;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox docname;
+        private TextBox docpasswcd;
         private Label label2;
+        private TextBox docid;
     }
 }
