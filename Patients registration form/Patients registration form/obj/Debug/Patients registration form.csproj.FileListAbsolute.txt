@@ -8,3 +8,13 @@ C:\Users\ADMIN\source\repos\Patients registration form\Patients registration for
 C:\Users\ADMIN\source\repos\Patients registration form\Patients registration form\obj\Debug\Patients registration form.csproj.CoreCompileInputs.cache
 C:\Users\ADMIN\source\repos\Patients registration form\Patients registration form\obj\Debug\Patients registration form.exe
 C:\Users\ADMIN\source\repos\Patients registration form\Patients registration form\obj\Debug\Patients registration form.pdb
+C:\Users\ADMIN\OneDrive\Documents\Patients registration form\Patients registration form\obj\Debug\Patients registration form.csproj.AssemblyReference.cache
+C:\Users\ADMIN\OneDrive\Documents\Patients registration form\Patients registration form\obj\Debug\Patients_registration_form.Form1.resources
+C:\Users\ADMIN\OneDrive\Documents\Patients registration form\Patients registration form\obj\Debug\Patients_registration_form.Properties.Resources.resources
+C:\Users\ADMIN\OneDrive\Documents\Patients registration form\Patients registration form\obj\Debug\Patients registration form.csproj.GenerateResource.cache
+C:\Users\ADMIN\OneDrive\Documents\Patients registration form\Patients registration form\obj\Debug\Patients registration form.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\OneDrive\Documents\Patients registration form\Patients registration form\obj\Debug\Patients registration form.exe
+C:\Users\ADMIN\OneDrive\Documents\Patients registration form\Patients registration form\obj\Debug\Patients registration form.pdb
+C:\Users\ADMIN\OneDrive\Documents\Patients registration form\Patients registration form\bin\Debug\Patients registration form.exe.config
+C:\Users\ADMIN\OneDrive\Documents\Patients registration form\Patients registration form\bin\Debug\Patients registration form.exe
+C:\Users\ADMIN\OneDrive\Documents\Patients registration form\Patients registration form\bin\Debug\Patients registration form.pdb
